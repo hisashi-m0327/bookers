@@ -48,6 +48,7 @@
 .books-index input[type="submit"]{
   display: block;
   margin-top: 10px;
+  padding: 1px 5px;
 }
 
 .books-index th {
@@ -63,22 +64,62 @@
   margin: 30px auto;
 }
 
-.notice{
-  padding-left: 60px;
-  margin: 30px auto;
-  color: green;
+.books-show .links{
+  margin-left: -30px;
 }
+
+
 
 .books-edit {
   margin: 30px;
 }
 
-.books-edit h1{
-  margin-bottom: 20px;
+.notice-message {
+  color: green; /* 文字色を緑にする */
+}
+
+.books-edit .form {
+  padding: 10px 0;
 }
 
 .books-edit input[type="submit"]{
   display: block;
-  margin-top: 10px;
+  padding: 1px 5px;
+  margin-bottom: 10px;
 }
+
+.books-edit h4 {
+  font-weight: normal;
+}
+
+#error_explanation {
+  border: 3px solid #ff031c;
+  font-family: Arial, sans-serif;
+  width: 580px;
+  text-align: left;
+}
+
+/* タイトル部分（左揃え） */
+#error_explanation h4 {
+  background-color: #c60014;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
+/* エラーメッセージリスト部分 */
+#error_explanation ul {
+  margin: 0;
+  padding: 40px 200px 40px 80px;
+  background-color: #f2f2f2;
+  list-style-type: disc;
+}
+
+#error_explanation li {
+  margin: 6px 0;
+  text-align: left;
+}
+
 
